@@ -14,7 +14,7 @@ pipeline {
     PROD_PIPELINE_EXECUTION_ROLE = 'arn:aws:iam::318775028588:role/aws-sam-cli-managed-dev-pipe-PipelineExecutionRole-1M2G3SMWM4JLB'
     PROD_CLOUDFORMATION_EXECUTION_ROLE = 'arn:aws:iam::318775028588:role/aws-sam-cli-managed-dev-p-CloudFormationExecutionR-5FOX47GZWM6H'
     PROD_ARTIFACTS_BUCKET = 'aws-sam-cli-managed-dev-pipeline-artifactsbucket-gxrlz0xuet5d'
-    PROD_IMAGE_REPOSITORY = '318775028588.dkr.ecr.us-east-1.amazonaws.com/aws-sam-cli-managed-dev-pipeline-resources-imagerepository-2f5dquabctqd'
+ // PROD_IMAGE_REPOSITORY = '318775028588.dkr.ecr.us-east-1.amazonaws.com/aws-sam-cli-managed-dev-pipeline-resources-imagerepository-2f5dquabctqd'
     PROD_REGION = 'us-east-1'
   }
   stages {
